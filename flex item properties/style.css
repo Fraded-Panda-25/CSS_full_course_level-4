@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.box1 {
+    background-color: palevioletred;
+}
+
+.box2 {
+    background-color: darkkhaki;
+        height: 200px;
+}
+
+.box3 {
+    background-color: aquamarine;
+    height: 75px;
+}
+
+.box4 {
+    background-color: blueviolet;
+}
+
+.box5 {
+    background-color: #2255A4;
+}
