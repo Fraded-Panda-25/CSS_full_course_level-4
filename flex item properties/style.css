@@ -25,8 +25,13 @@ div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;        /** It aligns content from the main axis */
+    align-items: flex-start;            /** It aligns content from the cross axis */
+    /* align-content: flex-start;          * centers multiple lines of flex items along the cross axis when the container has extra space and flex-wrap is enabled */
 }
+
+/** align-items   → aligns items within each flex line (works even with 1 line) */
+/**align-content → aligns the flex lines themselves (only matters with multiple wrapped lines) */
 
 .box1 {
     background-color: palevioletred;
@@ -34,7 +39,8 @@ div {
 
 .box2 {
     background-color: darkkhaki;
-        height: 200px;
+    height: 200px;
+    align-self: flex-end;
 }
 
 .box3 {
