@@ -1,0 +1,1 @@
+<!-- TODO: create a navigation bar containing four menu options, where each option is an <a> link placed inside an <li> list item. Then use CSS Flexbox to display all four options horizontally in one line with equal spacing between them. justify-content: space-evenly distributes equal space between the links and at both ends of the container. -->
