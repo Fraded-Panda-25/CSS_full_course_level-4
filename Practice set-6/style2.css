@@ -15,10 +15,15 @@ body {
 
 #container {
     display: flex;
+    height: 200px;
+    width: 200px;
     justify-content: space-evenly;
+    align-items: center;
     border: 2px solid white;
 }
 
 .box {
     background-color: rgb(245, 118, 0);
+    height: 100px;
+    width: 100px;
 }
