@@ -9,7 +9,6 @@ html , body{
 }
 
 #div {
-    background-color: black;
     color: white;
 }
 
@@ -29,5 +28,12 @@ html , body{
 @media (min-width : 400px) and (max-width : 600px) {
     #div {
         background-color: red;
+    }
+}
+
+
+@media (min-width : 600px) {
+    #div {
+        background-color: blue;
     }
 }
